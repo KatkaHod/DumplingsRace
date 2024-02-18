@@ -15,6 +15,17 @@ public class Racer {
         this.born = born;
     }
 
+    public Racer(String name, LocalDate born) {
+        this.name = name;
+        this.born = born;
+        this.numberOfDumplings = 0;
+    }
+
+
+    public int addDumplings(int howMuch) {
+        this.numberOfDumplings = this.numberOfDumplings + howMuch;
+        return this.numberOfDumplings;
+    }
 
     public String getName() {
         return name;

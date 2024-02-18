@@ -9,7 +9,16 @@ public class Main {
     Race race2017 = new Race("Race 2017", 2017, LocalDate.of(2017,1,1), firstRacer);
     Race race2018 = new Race("Race 2018", 2018, LocalDate.of(2018, 9,5), secondRacer);
     Race race2019 = new Race("Race 2019", 2019,LocalDate.of(2019,6,4),secondRacer);
+
+        System.out.println(firstRacer.getName());
+        System.out.println(secondRacer.getName());
+
+
     }
+
+
+
+
 }
 
 
